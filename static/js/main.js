@@ -11,6 +11,6 @@ swiper.on('slideChangeStart', function () {
     console.log(swiper.activeIndex);
 });
 
-$('.action_1 .button').on('touch', function () {
+$('.action_1 .button').on('tap', function () {
 	swiper._slideNext();
 })

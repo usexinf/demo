@@ -107,11 +107,12 @@ html {
     height: 100%;
     margin-left: auto;
     margin-right: auto;
+    background: #000;
 }
 .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: #000;
     /* Center slide text vertically */
     display: -webkit-box;
     display: -ms-flexbox;
@@ -129,7 +130,7 @@ html {
 .action_bg {
     width: 100%;
     height: 100%;
-    background-size: 100%;
+    background-size: 100% 100%;
     background-image: url(../images/active-1-bg.jpg);
     background-repeat: no-repeat;
     position: relative;
