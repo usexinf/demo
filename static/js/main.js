@@ -1,6 +1,7 @@
 var veiwHeight = document.documentElement.clientHeight;
 
 $('article, section').css('height', veiwHeight);
+$('article, section').eq(1).css({'height': veiwHeight,'overflow-y':'scroll'});
 
 var scrollFn = function() {
 
