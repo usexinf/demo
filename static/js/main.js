@@ -21,9 +21,6 @@ var scrollFn = function() {
         if (pageNum > sectionLength - 1) {
             pageNum = sectionLength - 1;
         }
-        if (pageNum == sectionLength - 1) {
-            $('.page_up').hide();
-        }
         pageUp(pageNum);
     })
 
@@ -57,5 +54,5 @@ var scrollFn = function() {
 }
 
 window.onload = function () {
-    scrollFn();
+    // scrollFn();
 }
