@@ -10,3 +10,7 @@ var swiper = new Swiper('.swiper-container', {
 swiper.on('slideChangeStart', function () {
     console.log(swiper.activeIndex);
 });
+
+$('.action_1 .button').on('click', function () {
+	swiper._slideNext();
+})

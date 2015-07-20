@@ -125,3 +125,168 @@ html {
     -ms-flex-align: center;
 }
 
+
+.action_bg {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-image: url(../images/active-1-bg.jpg);
+    background-repeat: no-repeat;
+    position: relative;
+}
+.action_bg .point_block {
+    width: 100%;
+    height: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.action_1 .point_block {
+    background-image: url(../images/active-1-block.png);
+}
+.action_2 .point_block {
+    background-image: url(../images/active-2-block.png);
+}
+.action_3 {
+    background-image: url(../images/active-3-bg.jpg);
+}
+.action_bg .logo {
+    width: 103px;
+    height: 32px;
+    background-size: 100%;
+    background-image: url(../images/active-logo.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -220px 0 0 -120px;
+}
+.action_1 .word {
+    width: 190px;
+    height: 190px;
+    background-size: 100%;
+    background-image: url(../images/active-1-word.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -140px 0 0 -125px;
+}
+.action_1 .button {
+    width: 152px;
+    height: 152px;
+    background-size: 100%;
+    background-image: url(../images/active-1-button.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: 70px 0 0 -76px;
+}
+.action_2 .word {
+    width: 112px;
+    height: 100px;
+    background-size: 100%;
+    background-image: url(../images/active-2-word.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -170px 0 0 -125px;
+}
+.action_2 .title {
+    width: 200px;
+    height: 100px;
+    background-size: 100%;
+    background-image: url(../images/active-2-title.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -30px 0 0 -125px;
+}
+.action_2 .star {
+    background-size: 100%;
+    background-image: url(../images/active-2-star.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-animation:star 2s infinite linear;
+}
+.action_2 .star.pos1 {
+    width: 48px;
+    height: 50px;
+    -webkit-animation-delay: 0.1s;
+    margin: 110px 0 0 -110px;
+}
+.action_2 .star.pos2 {
+    width: 38px;
+    height: 40px;
+    -webkit-animation-delay: 0.5s;
+    margin: 140px 0 0 10px;
+}
+.action_2 .star.pos3 {
+    width: 28px;
+    height: 30px;
+    -webkit-animation-delay: 0.8s;
+    margin: 200px 0 0 -125px;
+}
+.action_2 p {
+    color: #5ebaff;
+    font-size: 16px;
+    font-family: '微软雅黑';
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+.action_2 p.pos1 {
+    margin: 100px 0 0 -50px;
+}
+.action_2 p.pos2 {
+    margin: 190px 0 0 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*animation*/
+@-webkit-keyframes star {
+    0%{
+       opacity: 0.8;
+    }
+    50%{
+        opacity: 0.2;
+    }
+    100%{
+        opacity: 0.8;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
